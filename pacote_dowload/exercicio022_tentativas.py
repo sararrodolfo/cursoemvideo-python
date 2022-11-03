@@ -1,0 +1,28 @@
+nome = str(input('Digite seu nome completo: '))
+print(f'O seu nome é: {nome}, em letras maísculas fica assim {nome.upper()}')
+print(f'Enquanto o seu nome em minúscula fica assim {nome.lower()}')
+nomed = nome.split()
+# print(nomed)
+nome1 = len(nomed[0])
+nome2 = len(nomed[1])
+nome3 = len(nomed[2])
+total_nome = (nome1 + nome2 + nome3)
+print(total_nome)
+print(f'A quantidade de letras é: {total_nome}')
+print(f'A quantidade total de letras no seu nome é: {len(nome)}')
+# print(f'A quantidade total de letras no seu nome é: {len(nomej)}')
+print(f'A quantidade de letras no seu primeiro nome é: {len(nomed[0])}')
+
+# nome1 = nome.split())
+# print(f'Se contarmos a quantidade total de letras é de: {len(nome1[0, 1, 2])')
+# print(f'A quantidade de letras no seu primeiro nome é: {len(nome1[0])}')
+
+
+# print(f'Se contarmos a quantidade de caracteres ao todo é: {len(nome)}')
+# nome_d = nome.split()
+# print(f'A quantidade de caracteres é de {len(nome_d)}') # devolve a quantidade de elementos da lista
+# nnome = len(nome.replace(" ", "  "))
+# nomed = nome.split()
+# numdi = len(nomed[0])
+# print(numdi)
+# print(nome1)
